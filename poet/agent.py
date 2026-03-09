@@ -24,7 +24,7 @@ from .sub_agents.scribe import scribe_agent
 from .sub_agents.critic import critic_agent
 from .sub_agents.wordsmith import wordsmith_agent
 
-MODEL = "gemini-2.5-pro"
+MODEL = "gemini-2.0-flash"
 
 
 poet_coordinator = LlmAgent(
