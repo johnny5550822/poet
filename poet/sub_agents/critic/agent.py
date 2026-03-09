@@ -18,8 +18,9 @@ from google.adk import Agent
 from google.adk.tools import google_search
 
 from . import prompt
+from poet.config import MODEL
 
-MODEL = "gemini-2.0-flash"
+# MODEL = "gemini-2.0-flash"
 
 critic_agent = Agent(
     model=MODEL,

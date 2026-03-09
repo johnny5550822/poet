@@ -16,10 +16,10 @@
 
 from google.adk import Agent
 from google.adk.tools import google_search
-
+from poet.config import MODEL
 from . import prompt
 
-MODEL = "gemini-2.0-flash"
+# MODEL = "gemini-2.0-flash"
 
 wordsmith_agent = Agent(
     model=MODEL,

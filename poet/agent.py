@@ -23,8 +23,10 @@ from .sub_agents.architect import architect_agent
 from .sub_agents.scribe import scribe_agent
 from .sub_agents.critic import critic_agent
 from .sub_agents.wordsmith import wordsmith_agent
+from .config import MODEL
 
-MODEL = "gemini-2.0-flash"
+
+# MODEL = "gemini-1.5-flash"
 
 
 poet_coordinator = LlmAgent(
