@@ -1,5 +1,10 @@
 # AI Poetic Collaborator
 
+## Note
+This is cloned from Google Cloud tutorial: https://github.com/miguegutGoogle/poet.
+
+And modified by Johnny Ho. 
+
 ## Overview
 
 The **AI Poetic Collaborator** is an advanced, multi-agent system designed to guide users through the complete creative process of writing a poem. It transforms a simple theme or idea into a polished, final piece by orchestrating a team of five specialized AI **sub-agents**.
